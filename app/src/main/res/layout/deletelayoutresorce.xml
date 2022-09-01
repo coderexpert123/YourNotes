@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:id="@+id/bottom_shape"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="180dp"
+        android:background="@color/grey"
+        android:layout_height="10dp">
+
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="Are you want to delete \ think nefore do ?"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+<TextView
+    android:layout_width="match_parent"
+    android:text="No"
+    android:textSize="20dp"
+    android:padding="8dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/delete_no"
+    android:textColor="#fff"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:background="@drawable/no_delete"
+    android:layout_height="wrap_content">
+
+</TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Yes"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:id="@+id/delete_yes"
+        android:background="@drawable/yes_delete"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</LinearLayout>

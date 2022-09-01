@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EAE0E0"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".Activity.insertNotesActivity">
+
+
+    <EditText
+        android:id="@+id/up_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edt_text_back"
+        android:hint="Tittle"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/up_sub_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/edt_text_back"
+        android:hint="Sub Tittle"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="72dp">
+
+        <TextView
+            android:layout_width="113dp"
+            android:layout_height="46dp"
+            android:text="Priority"
+
+
+            android:textColor="#000000"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="46dp"
+            android:id="@+id/purpleProirty"
+            android:layout_marginRight="5dp"
+
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape_green">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="46dp"
+            android:id="@+id/redProirty"
+
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape_red">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="46dp"
+            android:id="@+id/orangeProirty"
+
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/shape_blue">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/up_notes"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edt_text_back"
+        android:gravity="start"
+        android:hint="Sub Tittle"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/update_notes_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="31dp"
+        android:src="@drawable/ic_baseline_done_24"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp" />
+</LinearLayout>

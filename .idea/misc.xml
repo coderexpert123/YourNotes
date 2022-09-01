@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/drawable/edt_text_back.xml" value="0.1715" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/drawable/no_delete.xml" value="0.1715" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/drawable/roundshape.xml" value="0.1715" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/drawable/shape_blue.xml" value="0.1715" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/drawable/shape_green.xml" value="0.18" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/drawable/shape_red.xml" value="0.12" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/drawable/slected_shape.xml" value="0.1715" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/drawable/stu.xml" value="0.1715" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/drawable/unselected_shape.xml" value="0.1715" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/drawable/yes_delete.xml" value="0.1715" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/layout/activity_insert.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/layout/activity_insert_notes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/layout/activity_update_notes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/layout/deletelayoutresorce.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/layout/item_notes.xml" value="0.13451086956521738" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/menu/delete_emnu.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Nishant Singh/MyNotes/app/src/main/res/menu/search_notes.xml" value="0.1675929884566054" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
